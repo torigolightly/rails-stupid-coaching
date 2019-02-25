@@ -1,0 +1,42 @@
+$green: #40a798;
+$rose: #f5e1da;
+$lilia: #476268;
+
+body {
+  background: $lilia;
+  p {
+    font-family: josefin sans;
+    font-size: 30px;
+  }
+  text-align: center;
+}
+
+.banner {
+  background: $rose;
+  h1 {
+    font-size: 50px;
+    font-family: dancing script;
+  }
+  width: 50%;
+  margin: auto;
+  padding: 25px;
+}
+
+.intro {
+  font-variant: small-caps;
+}
+
+.submit {
+  font-family: josefin sans;
+  padding: 30px;
+  border: 2px solid $lilia;
+  border-radius: 5%;
+  font-size: 25px;
+}
+
+a {
+  color: $green;
+  &:hover {
+    color: $lilia;
+  }
+}
